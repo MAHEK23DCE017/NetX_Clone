@@ -25,7 +25,7 @@ body{
 .box {
     height: 80vh;
     width: 100%;
-    opacity: 0.64;
+    opacity: 0.4;
     /* opacity: ; is use to make box shade */
     background-color: black;
     position: absolute;
@@ -64,6 +64,7 @@ nav button {
     font-family: 'Martel Sans', sans-serif;
     gap: 13px;
     padding: 30px;
+    z-index: 1;
 }
 
 .hero> :nth-child(1) 
@@ -139,6 +140,70 @@ nav button {
     background-color: rgba(23,23,23,0.7);
     border: 1px solid rgba(246,238,238,0.5)
 }
+
+.first
+{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImage
+{
+    position: relative;
+}
+.secImage img
+{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImage video
+{
+    position: absolute;
+    top: 17%;
+    left: 12%;
+    width: 74%;
+    height: 62%;
+    z-index: 1;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+section.first >div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1)
+{
+    font-size: 48px;
+    font-weight: bolder
+}
+section.first > div :nth-child(1)
+{
+    font-size: 24px;
+}
+
+.faq{
+background-color: black;
+color: white;
+}
+
+.faqbox
+{
+    display: flex;
+    background-color: black;
+    padding: 34px;
+    width: 100%;
+    color: white;
+}
+
 
 
 
