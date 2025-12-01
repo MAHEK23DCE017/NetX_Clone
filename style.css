@@ -38,11 +38,11 @@ nav {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    height: 62px;
+    height: 100px;
 }
 
 nav img {
-    width: 120px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -54,7 +54,7 @@ nav button {
 
 .hero {
     margin-top: 80px;
-    height: calc(100%-62px);
+    height: calc(100%-100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,15 +222,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
+    padding: 14px;
+}
 
+.questions
+{
+    padding: 34px 0px;
 }
 
 .footeritem {
     display: flex;
     flex-direction: column;
+    gap: 23px;
 }
 
 .footer a{
-    text-decoration: none;
+    font-size: 14px;
     color: white;
 }
